@@ -8,14 +8,14 @@ var randNum = Math.floor(Math.random()*102+19)
 
 $("#randomNumber").text(randNum);
 // need to make array for random crystal numbers ( 1 -12)
-var crystalNum = [];
-for (var c = 1; c < 13; c++) {
-    crystalNum.push(c);
-}
+var gem1 = Math.floor(Math.random()*12+1)
+var gem2 = Math.floor(Math.random()*12+1)
+var gem3 = Math.floor(Math.random()*12+1)
+var gem4 = Math.floor(Math.random()*12+1)
 // need to make variables for wins, loses, 
 var totalScore = 0;
 var wins = 0;
-var loses = 0;
+var losses = 0;
 
 
 // array for storing the random numbers computer picked 
