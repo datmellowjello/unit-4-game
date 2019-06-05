@@ -27,14 +27,53 @@ function winner () {
     $("#wins").text(wins);
 
 }
-function losser() {
+function loser() {
     alert("too bad so sad you lost!");
     losses++;
     $("#losses").text(losses);
-    
+
 }
+ $('.purple').on ('click', function(){
+    totalScore = totalScore + gem1;
+    $('#userPtns').text(totalScore); 
+        if (totalScore == randNum){
+          winner();
+        }
+        else if ( playerTotal > Random){
+          loser();
+        }   
+  })  
 
-
+  $('.green').on ('click', function(){
+    totalScore = totalScore + gem1;
+    $('#userPtns').text(totalScore); 
+        if (totalScore == randNum){
+          winner();
+        }
+        else if ( playerTotal > Random){
+          loser();
+        }   
+  })  
+  $('.blue').on ('click', function(){
+    totalScore = totalScore + gem1;
+    $('#userPtns').text(totalScore); 
+        if (totalScore == randNum){
+          winner();
+        }
+        else if ( playerTotal > Random){
+          loser();
+        }   
+  })  
+  $('.red').on ('click', function(){
+    totalScore = totalScore + gem1;
+    $('#userPtns').text(totalScore); 
+        if (totalScore == randNum){
+          winner();
+        }
+        else if ( playerTotal > Random){
+          loser();
+        }   
+  })  
 
 // need function to pick random crystal numbers on click functions
 
