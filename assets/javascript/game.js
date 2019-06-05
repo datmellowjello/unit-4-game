@@ -31,7 +31,7 @@ function loser() {
     alert("too bad so sad you lost!");
     losses++;
     $("#losses").text(losses);
-
+//on click of gem functions
 }
  $('.purple').on ('click', function(){
     totalScore = totalScore + gem1;
@@ -39,7 +39,7 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( totalScore > Random){
+        else if ( totalScore > randNum){
           loser();
         }   
   })  
@@ -50,7 +50,7 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( totalScore > Random){
+        else if ( totalScore > randNum){
           loser();
         }   
   })  
@@ -60,7 +60,7 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( totalScore > Random){
+        else if ( totalScore > randNum){
           loser();
         }   
   })  
@@ -70,18 +70,22 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( totalScore > Random){
+        else if ( totalScore > randNum){
           loser();
         }   
   })  
 
-// need function to pick random crystal numbers on click functions
-
-
-
-// pick random numbers for crystals
-
 // need to make reset function
+function reset () {
+    randNum=Math.floor(Math.random()*102+19);
+    $('#randomNumber').text(randNum);
+    gem1= Math.floor(Math.random()*12+1);
+    gem2= Math.floor(Math.random()*12+1);
+    gem3= Math.floor(Math.random()*12+1);
+    gem4= Math.floor(Math.random()*12+1);
+    totalScore= 0;
+    $('#userPtns').text(totalScore);
+} 
 
 
 // function to update score when a crystal is clicked
