@@ -25,12 +25,13 @@ function winner () {
     alert("winner winner chicken dinner!");
     wins++;
     $("#wins").text(wins);
-
+    reset ()
 }
 function loser() {
     alert("too bad so sad you lost!");
     losses++;
     $("#losses").text(losses);
+    reset ()
 //on click of gem functions
 }
  $('.purple').on ('click', function(){
