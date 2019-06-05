@@ -37,7 +37,7 @@ function pickRandomNumber(arr) {
 
     var x = arr[Math.floor(Math.random() * arr.length)];
     randNumber = x;
-    $("#randomNumber").html(randNumber);
+    $("#chosenNum").html(randNumber);
 
     console.log("random number: " + randNumber);
 
@@ -51,10 +51,9 @@ function pickRandomCrystals(arr) {
 
         var a = arr[Math.floor(Math.random() * arr.length)];
 
-        crystalNum.push(a);
+        crystalNumbers.push(a);
     }
 
-// need function to pick random computer number to match 
 
 
 // need to make reset function
