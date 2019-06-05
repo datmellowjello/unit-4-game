@@ -45,7 +45,7 @@ function loser() {
   })  
 
   $('.green').on ('click', function(){
-    totalScore = totalScore + gem1;
+    totalScore = totalScore + gem2;
     $('#userPtns').text(totalScore); 
         if (totalScore == randNum){
           winner();
@@ -55,7 +55,7 @@ function loser() {
         }   
   })  
   $('.blue').on ('click', function(){
-    totalScore = totalScore + gem1;
+    totalScore = totalScore + gem3;
     $('#userPtns').text(totalScore); 
         if (totalScore == randNum){
           winner();
@@ -65,7 +65,7 @@ function loser() {
         }   
   })  
   $('.red').on ('click', function(){
-    totalScore = totalScore + gem1;
+    totalScore = totalScore + gem4;
     $('#userPtns').text(totalScore); 
         if (totalScore == randNum){
           winner();
