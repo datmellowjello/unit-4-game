@@ -24,8 +24,14 @@ $('#losses').text(losses);
 function winner () {
     alert("winner winner chicken dinner!");
     wins++;
-    $('#wins').text(wins);
+    $("#wins").text(wins);
 
+}
+function losser() {
+    alert("too bad so sad you lost!");
+    losses++;
+    $("#losses").text(losses);
+    
 }
 
 
