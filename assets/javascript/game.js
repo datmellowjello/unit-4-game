@@ -39,7 +39,7 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( playerTotal > Random){
+        else if ( totalScore > Random){
           loser();
         }   
   })  
@@ -50,7 +50,7 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( playerTotal > Random){
+        else if ( totalScore > Random){
           loser();
         }   
   })  
@@ -60,7 +60,7 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( playerTotal > Random){
+        else if ( totalScore > Random){
           loser();
         }   
   })  
@@ -70,7 +70,7 @@ function loser() {
         if (totalScore == randNum){
           winner();
         }
-        else if ( playerTotal > Random){
+        else if ( totalScore > Random){
           loser();
         }   
   })  
