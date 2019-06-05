@@ -1,12 +1,13 @@
 $(document).ready(function () {
 
 
-// need to make array for random computer number 
+// need to make array for random computer number (19 - 120)
 
 var randNum = [];
-// need to make array for random crystal numbers
+// need to make array for random crystal numbers ( 1 -12)
 var crystalNum = [];
 // need to make variables for wins, loses, 
+var totalScore = 0;
 var wins = 0;
 var loses = 0;
 // need varibales for each crystal
