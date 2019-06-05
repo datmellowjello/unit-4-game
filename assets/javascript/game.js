@@ -17,7 +17,8 @@ var totalScore = 0;
 var wins = 0;
 var losses = 0;
 
-
+$('#wins').text(wins);
+$('#losses').text(losses);
 // array for storing the random numbers computer picked 
 
 // need varibales for each crystal
