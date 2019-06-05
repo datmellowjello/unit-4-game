@@ -88,9 +88,4 @@ function reset () {
     $('#userPtns').text(totalScore);
 } 
 
-
-// function to update score when a crystal is clicked
-
-// need function to 
-
 });
